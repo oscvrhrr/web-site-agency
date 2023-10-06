@@ -5,21 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Creative single page site</title>
 </head>
 <body>
   <header>
-    <ul>
-      <li>About</li>
-      <li>Service</li>
-      <li>Projects</li>
-      <li><button>Schedule a call</button></li>
-    </ul>
+    <nav>
+      <div class="logo-container"><img src="./assets/desktop/logo.svg"></div>
+      <div class="hamburger-menu"><img src="./assets/mobile/icon-hamburger.svg"></div>
+      <ul class="nav-menu hide">
+        <li class="nav-item">About</li>
+        <li class="nav-item">Service</li>
+        <li class="nav-item">Projects</li>
+        <li class="nav-item"><button>Schedule a call</button></li>
+      </ul>
+    </nav>
   </header>
   
-  <main>
-    <h1>Branding & website design agency</h1>
+  <main class="hero-section">
+    <img src="./assets/mobile/image-hero.jpg">
+    <h1 class="hero-section__title">Branding & website design agency</h1>
 
     <p>We specialize in visual storytelling by creating cohesive brand and website design 
     solutions for small businesses, giving lasting impressions to audiences in a digital world.</p>
@@ -27,8 +32,8 @@
     <button>Learn more</button>
   </main>
 
-  <section>
-    <h2>Design is strategic.</h2>
+  <section class="design-section">
+    <h2 class="design-section__title">Design is strategic.</h2>
 
     <p>A well-crafted design strategy consistently produces desired outcomes and brand awareness. 
     We are firm believers that success lies in creative collaboration with our clients.</p>
@@ -36,8 +41,8 @@
     <button>Schedule a call</button>
   </section>
   
-  <section>
-    <h2>approach for creating a winning brand</h2>
+  <section class="approach-section">
+    <h2 class="approach-section__title">approach for creating a winning brand</h2>
     
     01 <h3>Brand strategy</h3>
     <p>Brand strategy is critical for long-term success. Outshining competitors and capturing 
@@ -53,19 +58,19 @@
   </section>
 
 
-  <section>
-    <h2>Brand naming & guidelines</h2>
-    <h3>Lean Product Roadmap</h3> 
+  <section class="project-section">
+    <h2 class="project-section__title">Brand naming & guidelines</h2>
+    <h3 class="project-section__subtitle">Lean Product Roadmap</h3> 
     <p>2019 project</p>
   </section>
-  <section>
-    <h2>Brand identity & merchandise</h2>
-    <h3>New Majestic Hotel</h3> 
+  <section class="project-section">
+    <h2 class="project-section__title">Brand identity & merchandise</h2>
+    <h3 class="project-section__subtitle">New Majestic Hotel</h3> 
     <p>2018 Project</p>
   </section>
-  <section>
-    <h2>Brand identity & web design</h2>
-    <h3>Crypto Dashboard</h3>
+  <section class="project-section">
+    <h2 class="project-section__title">Brand identity & web design</h2>
+    <h3 class="project-section__subtitle">Crypto Dashboard</h3>
     <p>2016 Project</p>
   </section>
 
