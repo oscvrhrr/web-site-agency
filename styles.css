@@ -12,6 +12,7 @@ body {
     background-color: white;
     margin: 0;
     font-family: 'commissioner';
+    line-height: 1.5;
 }
 
 nav {
@@ -34,6 +35,10 @@ h1 {
 h2 {
     font-size: 2rem;
 } 
+
+h3 {
+    font-size: .9375rem;
+}
 
 p {
     font-size: .9375rem;
@@ -114,17 +119,17 @@ section.design-section {
 }
 
 .design-section__title {
-    margin: 72px 0 24px 0;
+    margin: 4.5rem 0 1.5rem 0;
 }
 
 section.design-section .container p {
-    margin: 0 0 40px 0;
+    margin: 0 0 2.5rem 0;
     height: auto;
     text-align: left;
 }
 
 section.design-section .container button {
-    margin: 0 0 72px 0;
+    margin: 0 0 4.5rem 0;
 }
 
 section.design-section .container {
@@ -141,4 +146,50 @@ section.design-section .container {
     padding-bottom: 11px;
     border-bottom: 2px solid #F94F4F;
 
+}
+
+/* APPROACH SECTION */ 
+
+section.approach-section {
+    background-color: #F94F4F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    padding: 6rem 0 6rem 0;
+}
+
+section.approach-section h2 {
+    padding: 0 0 3.0625rem;
+}
+
+.spacing {
+    padding: 0 0 2.5rem 0;
+}
+
+section.approach-section .container li {
+font-size: 5rem;
+font-weight: 800;
+position: absolute;
+
+
+}
+
+.li-one {
+    top: 296px;
+    left: 23.5px ;
+    opacity: .25;
+}
+
+.li-two {
+    top:486px;
+    left: 23.5px;
+    opacity: .25;
+}
+
+.li-three {
+    top: 676px;
+    left: 23.5px;
+    opacity: .25;
 }
