@@ -11,6 +11,7 @@
 body {
     background-color: white;
     margin: 0;
+    font-family: 'commissioner';
 }
 
 nav {
@@ -20,6 +21,10 @@ nav {
     justify-content: space-between;
     padding: 0 1rem;
 
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 img {
@@ -48,4 +53,35 @@ img {
 
 .hero-image-container {
     width: max-content;
+}
+
+
+.hero-contianer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 6rem;
+
+}
+
+.hero-section__title {
+    margin: 3.5rem 0 0 0;
+}
+
+.hero-section p {
+    margin: .9375rem 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.hero-button {
+    display: inline-block;
+    width: 177px;
+    height: 72px;
+    background-color: #F94F4F;
+    color: #fff;
+    font-family: 'commissioner';
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+    
 }
