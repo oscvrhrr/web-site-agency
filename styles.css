@@ -193,3 +193,36 @@ position: absolute;
     left: 23.5px;
     opacity: .25;
 }
+
+/* PROJECT SECTION */
+
+.hide {
+    display: none;
+}
+
+.project-section__one {
+    position: relative;
+    color: #fff;
+    background-color: #191921;
+}
+
+.project-section__subtitle {
+    position: absolute;
+    right: 30px;
+    top: 51%;
+}
+
+.project-section__one p {
+    position: absolute;
+    right: 30px;
+    top: 54%;
+}
+
+.project-section__one h2 {
+    padding: 4rem 1.5rem;
+    margin: 0%;
+}
+
+.contact {
+    margin: 6.25rem 1.5rem 6.25rem 1.5rem;
+} 
