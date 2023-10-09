@@ -23,8 +23,20 @@ nav {
 
 }
 
+strong {
+    color: #F94F4F;
+}
+
 h1 {
     font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+} 
+
+p {
+    font-size: .9375rem;
 }
 
 img {
@@ -32,7 +44,16 @@ img {
     display: block;
 }
 
+.button {
+    display: inline-block;
+    width: fit-content;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.25rem 0;
+}
 
 .nav-menu {
     background-color: #191921;
@@ -59,7 +80,7 @@ img {
 .hero-contianer {
     display: flex;
     flex-direction: column;
-    margin: 0 1rem 6rem;
+    margin: 0 1.25rem 6rem;
 
 }
 
@@ -84,4 +105,40 @@ img {
     font-size: 18px;
     border: none;
     
+}
+
+/* DESIGN SECTION */
+
+section.design-section {
+    background-color: #191921;
+}
+
+.design-section__title {
+    margin: 72px 0 24px 0;
+}
+
+section.design-section .container p {
+    margin: 0 0 40px 0;
+    height: auto;
+    text-align: left;
+}
+
+section.design-section .container button {
+    margin: 0 0 72px 0;
+}
+
+section.design-section .container {
+    color: white;
+    line-height: 1.5;
+}
+
+.underlined-btn {
+    font-family: 'commissioner';
+    font-weight: 800;
+    color: #F94F4F;
+    background-color: #191921;
+    border-style: none;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #F94F4F;
+
 }
