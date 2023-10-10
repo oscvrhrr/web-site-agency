@@ -209,13 +209,21 @@ position: absolute;
 .project-section__subtitle {
     position: absolute;
     right: 30px;
-    top: 51%;
+    top: 46%;
 }
 
 .project-section__one p {
     position: absolute;
     right: 30px;
-    top: 54%;
+    top: 49%;
+}
+
+.project-section__one .prev,
+.project-section__one .next {
+    display: inline-block;
+    width: fit-content;
+    height: auto;
+    padding: 1.25rem .5rem 0 0;
 }
 
 .project-section__one h2 {
