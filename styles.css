@@ -122,6 +122,15 @@ ul {
 
 /* DESIGN SECTION */
 
+section div img {
+    display: inline-block;
+    width: 3.9375rem;
+    height: 1.8125rem;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 62%;
+}
+
 section.design-section {
     background-color: #191921;
 }
@@ -154,6 +163,10 @@ section.design-section .container {
     padding-bottom: 11px;
     border-bottom: 2px solid #F94F4F;
 
+}
+
+section.design-section {
+    position: relative;
 }
 
 /* APPROACH SECTION */ 
