@@ -85,6 +85,17 @@ ul {
 
 }
 
+.nav-btn {
+    width: 177px;
+    height: 72px;
+    background-color: #F94F4F;
+    color: #fff;
+    font-family: 'commissioner';
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+}
+
 .hero-image-container {
     width: max-content;
 }
@@ -95,6 +106,10 @@ ul {
     flex-direction: column;
     margin: 0 1.25rem 6rem;
 
+}
+
+.hero-section img:nth-child(2n) {
+    display: none;
 }
 
 .hero-section__title {
@@ -252,6 +267,107 @@ position: absolute;
     margin: 0%;
 }
 
+.footer-btn {
+    width: 177px;
+    height: 72px;
+    background-color: #F94F4F;
+    color: #fff;
+    font-family: 'commissioner';
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+}
+
 .contact {
     margin: 6.25rem 1.5rem 6.25rem 1.5rem;
 } 
+
+/* TABLET MEDIA QUERY */
+
+@media only screen and (min-width:767px) {
+
+    /* HERO SECTION */
+
+    nav {
+    padding: 0;
+    }
+
+    .hide-burger {
+        display: none;
+    }
+
+    .logo-container {
+        margin-left:2.43rem ;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1.25rem 0;
+    }
+    
+    .nav-menu {
+        background-color: #F94F4F;
+        justify-content: space-around;
+        align-items: center;
+        width: 60%;
+        display: flex;
+        position: static;
+        height: 11.125rem;
+        margin-left: 0;
+    }
+
+    .nav-btn {
+        background-color: #191921;
+    }
+    
+    /* HERO SECTION */
+
+    .hero-section img:first-child {
+        display: none;
+    }
+
+    .hero-section img:nth-child(2n) {
+        display: block;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    .hero-contianer {
+        overflow: visible;
+        width: 28rem;
+    }
+    
+    .hero-section__title {
+        position: relative;
+        width: 25rem;
+        margin-left: 11rem;
+        font-size: 3.5rem;
+    }
+    
+    .hero-section p {
+        position: relative;
+        width: 25rem;
+        margin-left: 11rem;
+        padding: 1rem 0 1.5rem 0;
+    }
+    
+    .hero-button {
+        margin-left: 11rem;
+        position: relative;
+        display: inline-block;
+        width: 177px;
+        height: 72px;
+        background-color: #F94F4F;
+        color: #fff;
+        font-family: 'commissioner';
+        font-weight: 800;
+        font-size: 18px;
+        border: none;
+    }
+
+}
