@@ -137,6 +137,10 @@ ul {
 
 /* DESIGN SECTION */
 
+.design-section img:nth-child(2n){
+    display: none;
+}
+
 section div img {
     display: inline-block;
     width: 3.9375rem;
@@ -369,5 +373,70 @@ position: absolute;
         font-size: 18px;
         border: none;
     }
+    /* DESIGN SECTION */
 
+    .design-section {
+        display: flex;
+        max-height: 33.625rem;
+    }
+
+    .container {
+        padding: 2.25rem 1.5rem 2.5rem 4rem;
+    }
+
+    .design-section__title {
+        padding-right: 1rem;
+    }
+    .design-section img:nth-child(2n){
+        display: block;
+        min-height: 41.125rem;
+        z-index: 1;
+    }
+
+    .design-section img:first-child {
+        display: none;
+    }
+
+    /* APPROACH SECTION */
+
+    section.approach-section {
+        background-color: #fff;
+        align-items: end;
+        padding: 0 0 0 0;
+    }
+
+    section.approach-section .container {
+        padding-top: 4.5rem;
+        padding-left: 1.5rem;
+        background-color: #F94F4F;
+        max-width: 24.5rem;
+        margin: 0;
+        z-index: 1;
+    }
+
+    .approach-section__title {
+        position: absolute;
+        color: black;
+        left: 5%;
+        max-width: 15rem;
+        margin-top: 12rem;
+    }
+
+    .li-one {
+        z-index: 2;
+        left: 22.5rem;
+        top: 6rem;
+    }
+
+    .li-two {
+        z-index: 2;
+        left: 22.5rem;
+        top: 22.5rem;
+    }
+    
+    .li-three {
+        z-index: 2;
+        left: 22.5rem;
+        top: 39rem;
+    }
 }
