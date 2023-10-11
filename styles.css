@@ -112,6 +112,10 @@ ul {
     display: none;
 }
 
+.hero-section img:nth-child(3n) {
+    display: none;
+}
+
 .hero-section__title {
     margin: 3.5rem 0 0 0;
 }
@@ -141,7 +145,7 @@ ul {
     display: none;
 }
 
-.hero-section img:nth-child(3n) {
+.design-section img:nth-child(3n) {
     display: none;
 }
 
@@ -175,6 +179,10 @@ section.design-section .container button {
 section.design-section .container {
     color: white;
     line-height: 1.5;
+}
+
+#next-btn {
+    display: block;
 }
 
 .underlined-btn {
@@ -268,6 +276,10 @@ position: absolute;
 
 .project-section__one .prev:nth-child(2n){
     display: inline-block;
+}
+
+section.project-section__one img:nth-child(3) {
+    display: none;
 }
 
 .project-section__one .prev,
@@ -414,6 +426,10 @@ position: absolute;
         display: none;
     }
 
+    .design-section img:nth-child(3n) {
+        display: none;
+    }
+
     /* APPROACH SECTION */
 
     section.approach-section {
@@ -475,6 +491,7 @@ position: absolute;
         position: relative;
     }
 
+    
     section.project-section__one .floating-card {
         visibility: visible;
         position: absolute;
@@ -501,6 +518,10 @@ position: absolute;
         left: 0;
 
 
+    }
+
+    section.project-section__one img:nth-child(3) {
+        display: block;
     }
 
     /* CONTACT SECTION */
@@ -567,16 +588,64 @@ position: absolute;
         width: 177px;
         height: 72px;
 
-
-
-
-
-        
     }
 
+    /* DESIGN SECTION */
 
+    .design-section {
+        min-height: 49rem;
+    }
 
+    .design-section img:nth-child(2n) {
+        display: none;
+    }
 
+    .design-section img:nth-child(3n) {
+        display: block;
+        min-height: 61.5rem;
+        z-index: 1;
+    }
 
+    .design-section .container {
+        justify-content: center;
+    }
+
+    /* APPROACH SECTION */
+
+    section.approach-section h2 {
+        font-size: 3.5rem;
+        max-width: 30rem;
+        left: 10%;
+        top: 20%;
+        z-index: 2;
+    }
+
+    section.approach-section .container {
+        max-width: 50rem;
+        min-height: 10rem;
+    }
+
+    section.project-section__one img:nth-child(2) {
+        display: none;
+    }
+
+    section.project-section__one img:nth-child(3) {
+        display: block;
+        max-width: 53rem;
+    }
+    
+    section.project-section__one .floating-card {
+        width: 46rem;
+        min-height: 33rem;
+    }
+
+    div.contact {
+        padding: 2rem 8rem;
+    }
+
+    .contact h2 {
+        font-size: 3.5rem;
+        width: 35rem;
+    }
 
 }
