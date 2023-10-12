@@ -610,12 +610,24 @@ section.project-section__one img:nth-child(3) {
         justify-content: center;
     }
 
+    section.design-section .container h2 {
+        font-size: 3.5rem;
+        width: 22rem;
+    }
+
+    section.design-section .container p,
+    section.design-section .container button {
+        font-size: 1.125rem;
+    }
+
+   
+
     /* APPROACH SECTION */
 
     section.approach-section h2 {
         font-size: 3.5rem;
         max-width: 30rem;
-        left: 10%;
+        left: 15.85%;
         top: 20%;
         z-index: 2;
     }
@@ -623,6 +635,34 @@ section.project-section__one img:nth-child(3) {
     section.approach-section .container {
         max-width: 50rem;
         min-height: 10rem;
+        box-sizing: border-box;
+        padding: 6.5rem 2rem 6rem 7rem
+    }
+
+    .container h3 {
+        font-size: 1.25rem;
+    }
+
+    .container p {
+        font-size: 1.125rem;
+    }
+
+    .li-one,
+    .li-two,
+    .li-three {
+        left: 54%;
+    }
+
+    .li-one {
+        top: 13%;
+    }
+
+    .li-two {
+        top: 41%;
+    }
+
+    .li-three {
+        top: 68.95%;
     }
 
     section.project-section__one img:nth-child(2) {
@@ -637,6 +677,10 @@ section.project-section__one img:nth-child(3) {
     section.project-section__one .floating-card {
         width: 46rem;
         min-height: 33rem;
+    }
+
+    .li-one {
+
     }
 
     div.contact {
