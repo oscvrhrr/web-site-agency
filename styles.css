@@ -85,6 +85,11 @@ ul {
 
 }
 
+.nav-menu li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .nav-btn {
     width: 177px;
     height: 72px;
@@ -94,6 +99,12 @@ ul {
     font-weight: 800;
     font-size: 18px;
     border: none;
+}
+
+.nav-btn:hover {
+    background-color: #434356;
+    cursor: pointer;
+
 }
 
 .hero-image-container {
@@ -137,6 +148,11 @@ ul {
     font-size: 18px;
     border: none;
     
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    background-color: #FF9393;
 }
 
 /* DESIGN SECTION */
@@ -186,6 +202,15 @@ section.design-section .container {
     display: inline-block;
 }
 
+#prev-btn {
+    display: inline-block;
+}
+
+a:hover {
+
+    cursor: pointer;
+}
+
 .underlined-btn {
     font-family: 'commissioner';
     font-weight: 800;
@@ -195,6 +220,11 @@ section.design-section .container {
     padding-bottom: 11px;
     border-bottom: 2px solid #F94F4F;
 
+}
+
+.underlined-btn:hover {
+    color: #FF9393;
+    border-color: #FF9393;
 }
 
 
@@ -304,6 +334,11 @@ section.project-section__one img:nth-child(3) {
     font-weight: 800;
     font-size: 18px;
     border: none;
+}
+
+.footer-btn:hover {
+    background-color: #FF9393;
+    cursor: pointer;
 }
 
 .contact {
