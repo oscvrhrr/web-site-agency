@@ -182,7 +182,7 @@ section.design-section .container {
 }
 
 #next-btn {
-    display: block;
+    display: inline-block;
 }
 
 .underlined-btn {
@@ -521,7 +521,7 @@ section.project-section__one img:nth-child(3) {
     }
 
     section.project-section__one img:nth-child(3) {
-        display: block;
+        display: none;
     }
 
     /* CONTACT SECTION */
@@ -545,7 +545,7 @@ section.project-section__one img:nth-child(3) {
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
 
     .logo-container {
         margin-left: 10.3125rem;
@@ -691,5 +691,12 @@ section.project-section__one img:nth-child(3) {
         font-size: 3.5rem;
         width: 35rem;
     }
+
+    .project-section__one h2 {
+        font-size: 3.5rem;
+        padding: 6.25rem 4.375rem 0 4.5rem;
+    }
+
+    
 
 }
