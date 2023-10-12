@@ -206,6 +206,8 @@ section.design-section .container {
     display: inline-block;
 }
 
+
+
 a:hover {
 
     cursor: pointer;
@@ -499,13 +501,13 @@ section.project-section__one img:nth-child(3) {
     .li-two {
         z-index: 2;
         left: 22.5rem;
-        top: 22.5rem;
+        top: 25.25rem;
     }
     
     .li-three {
         z-index: 2;
         left: 22.5rem;
-        top: 39rem;
+        top: 43rem;
     }
 
     /* PROJECT SECTION */
@@ -687,15 +689,15 @@ section.project-section__one img:nth-child(3) {
     .li-one,
     .li-two,
     .li-three {
-        left: 54%;
+        left: 51.5%;
     }
 
     .li-one {
-        top: 13%;
+        top: 11.5%;
     }
 
     .li-two {
-        top: 41%;
+        top: 40.25%;
     }
 
     .li-three {
