@@ -245,7 +245,7 @@ section.approach-section h2 {
 }
 
 .spacing {
-    padding: 0 0 2.5rem 0;
+    padding: 0 0 3.5rem 0;
 }
 
 section.approach-section .container li {
@@ -256,22 +256,37 @@ position: absolute;
 
 }
 
+.container-two {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.2rem 0;
+}
+
+.title-one,
+.title-two,
+.title-three {
+    position: relative;
+}
+
 .li-one {
-    top: 18.5rem;
-    left: 1.46rem ;
+    top: -4rem;
+    left: -1rem;
     opacity: .25;
+    position: absolute;
 }
 
 .li-two {
-    top: 30.375rem;
-    left: 23.5px;
+    top: -4rem;
+    left: -1rem;
     opacity: .25;
+    position: absolute;
 }
 
 .li-three {
-    top: 42.25rem;
-    left: 23.5px;
+    top: -4rem;
+    left: -1rem;
     opacity: .25;
+    position: absolute;
 }
 
 /* PROJECT SECTION */
