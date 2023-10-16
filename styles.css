@@ -170,17 +170,18 @@ section div img {
     width: 3.9375rem;
     height: 1.8125rem;
     position: absolute;
-    left: 1.5rem;
-    bottom: 62%;
+    top: -10%;
 }
 
 section.design-section {
     background-color: #191921;
-    position: relative;
+
 }
 
 .design-section__title {
-    margin: 4.5rem 0 1.5rem 0;
+    padding: 5.05rem 0 1.5rem 0;
+    position: relative;
+    margin: 0;
 }
 
 section.design-section .container p {
