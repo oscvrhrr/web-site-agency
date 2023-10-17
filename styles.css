@@ -527,22 +527,15 @@ section.project-section__one div a {
         margin-top: 12rem;
     }
 
-    .li-one {
-        z-index: 2;
-        left: 22.5rem;
-        top: 6rem;
+    .container-two {
+        padding: 5rem 0 1rem 4rem;
     }
 
-    .li-two {
-        z-index: 2;
-        left: 22.5rem;
-        top: 25.25rem;
-    }
-    
+    .li-one,
+    .li-two,
     .li-three {
         z-index: 2;
-        left: 22.5rem;
-        top: 43rem;
+        left: -17%;
     }
 
     /* PROJECT SECTION */
@@ -721,23 +714,18 @@ section.project-section__one div a {
         font-size: 1.125rem;
     }
 
-    .li-one,
+   .container-two {
+    padding: 7rem 3rem 2rem 6rem;
+
+   }
+
+   .li-one,
     .li-two,
     .li-three {
-        left: 51.5%;
-    }
 
-    .li-one {
-        top: 11.5%;
+        left: -10%;
     }
-
-    .li-two {
-        top: 40.25%;
-    }
-
-    .li-three {
-        top: 68.95%;
-    }
+    
 
     section.project-section__one img:nth-child(2) {
         display: none;
@@ -753,9 +741,7 @@ section.project-section__one div a {
         min-height: 33rem;
     }
 
-    .li-one {
-
-    }
+   
 
     div.contact {
         padding: 2rem 8rem;
