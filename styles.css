@@ -101,6 +101,16 @@ ul {
     border: none;
 }
 
+.hamburger-menu {
+    position: relative;
+}
+
+.cross-menu {
+    position: absolute;
+    right: 4.75%;
+    visibility: hidden;
+}
+
 .nav-btn:hover {
     background-color: #434356;
     cursor: pointer;
@@ -300,6 +310,8 @@ position: absolute;
     color: #fff;
     background-color: #191921;
 }
+
+
 
 .project-section__subtitle {
     position: absolute;
@@ -764,12 +776,5 @@ section.project-section__one div a {
      }
 
     
-
-}
-
-/* --------------------DESKTOP LAYOUT ------------------ */
-
-
-@media only screen and (min-width: 1910px) {
 
 }
