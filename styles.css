@@ -175,7 +175,7 @@ ul {
     display: none;
 }
 
-section div img {
+.design-section div img {
     display: inline-block;
     width: 3.9375rem;
     height: 1.8125rem;
@@ -208,9 +208,6 @@ section.design-section .container {
     color: white;
     line-height: 1.5;
 }
-
-
-
 
 
 
@@ -301,16 +298,68 @@ position: absolute;
 
 /* PROJECT SECTION */
 
+.wrapper {
+    height: 42rem;
+    width: 100%;
+    position: relative;
+}
+
+.dynamic-project {
+    background-color: white;
+    min-height: 42rem;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+
+.dynamic-project >:first-child {
+    min-height: 25.25rem;
+    width: 100%;
+}
+
+.project-title {
+    margin: 0;
+}
+
+figcaption {
+    background-color: #191921;
+    min-height: 20rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* new styles for dynamic project */
+.pro-container {
+    position: relative;
+    min-height: 44.7rem;
+}
+
 .hide {
     display: none;
 }
 
-.project-section__one {
+.project-section__one,
+.project-section__two,
+.project-section__three {
     position: relative;
     color: #fff;
     background-color: #191921;
 }
 
+
+.slide  {
+    position: absolute;
+
+}
 
 
 .project-section__subtitle {
@@ -319,7 +368,9 @@ position: absolute;
     top: 46%;
 }
 
-.project-section__one p {
+.project-section__one p,
+.project-section__two p,
+.project-section__three p {
     position: absolute;
     right: 30px;
     top: 49%;
@@ -338,7 +389,11 @@ section.project-section__one img:nth-child(3) {
 }
 
 .project-section__one .prev,
-.project-section__one .next {
+.project-section__one .next,
+.project-section__two .prev,
+.project-section__two .next,
+.project-section__three .prev,
+.project-section__three .next {
     position: static;
     display: inline-block;
     width: 2rem;
@@ -367,7 +422,9 @@ section.project-section__one div a {
 
 }
 
-.project-section__one h2 {
+.project-section__one h2,
+.project-section__two h2,
+.project-section__three h2 {
     padding: 4rem 1.5rem;
     margin: 0%;
 }
