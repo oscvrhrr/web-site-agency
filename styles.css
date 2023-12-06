@@ -166,7 +166,7 @@ ul {
 
 /* DESIGN SECTION */
 
-.design-section img:nth-child(2n){
+.design-section-tablet{
     display: none;
 }
 
@@ -174,12 +174,16 @@ ul {
     display: none;
 }
 
-.design-section div img {
+.red-pattern {
     display: inline-block;
     width: 3.9375rem;
     height: 1.8125rem;
     position: absolute;
     top: -10%;
+}
+
+.white-pattern{
+    display: none;
 }
 
 section.design-section {
@@ -391,6 +395,11 @@ button {
   outline: inherit;
 }
 
+.prev:hover{
+    filter: filter invert(82%) sepia(40%) saturate(2577%) hue-rotate(301deg) brightness(102%) contrast(104%);
+    
+}
+
 .prev {
     background-color: #191921;
     background-image: url('./starter-code/assets/desktop/icon-arrow-previous.svg');
@@ -428,6 +437,10 @@ button {
 .contact {
     margin: 6.25rem 1.5rem 6.25rem 1.5rem;
 } 
+
+.red-pattern-footer {
+    display: none;
+}
 
 
 
@@ -526,6 +539,20 @@ button {
     }
     /* DESIGN SECTION */
 
+    .red-pattern {
+        left: -44%;
+        top: 58%;
+    }
+
+    .white-pattern {
+        display: inline-block;
+        width: 3.9375rem;
+        height: 1.8125rem;
+        position: absolute;
+        right: -7%;
+        top: 31%;
+    }
+
     .design-section {
         display: flex;
         max-height: 33.625rem;
@@ -538,13 +565,13 @@ button {
     .design-section__title {
         padding-right: 1rem;
     }
-    .design-section img:nth-child(2n){
+    .design-section-tablet{
         display: block;
         min-height: 41.125rem;
         z-index: 1;
     }
 
-    .design-section img:first-child {
+    .design-section-mobile {
         display: none;
     }
 
@@ -552,7 +579,6 @@ button {
         display: none;
     }
 
-    /* APPROACH SECTION */
 
     section.approach-section {
         background-color: #fff;
@@ -609,7 +635,7 @@ button {
     }
 
     .cap{
-        width: 55%;
+        width: 50%;
         position: absolute;
         left: 0;
         top: 0;
@@ -714,6 +740,14 @@ button {
     }
 
     /* DESIGN SECTION */
+
+    .red-pattern {
+        display: inline-block;
+        width: 8.375rem;
+        height: 4.25rem;
+        left: -35%;
+        top: 20%;
+    }
 
     .design-section {
         min-height: 49rem;
@@ -822,6 +856,13 @@ button {
 
     }
 
+    .white-pattern {
+        display: inline-block;
+        width: 8.375rem;
+        height: 4.25rem;
+
+    }
+
 
 
     div.contact {
@@ -850,5 +891,14 @@ button {
 
     .footer-btn {
         margin: 15rem 5rem 0 0;
+    }
+
+    .red-pattern-footer {
+        display: inline-block;
+        width: 8.375rem;
+        height: 4.25rem;
+        position: absolute;
+        left: -4%;
+
     }
 }

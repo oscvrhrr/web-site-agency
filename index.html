@@ -6,8 +6,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Commissioner:wght@400;800&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./starter-code/assets/fav.jpeg" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./starter-code/assets/fav.jpeg"><!-- 180×180 -->
   <title>Creative single page site</title>
 </head>
 <body>
@@ -43,13 +44,13 @@
   </main>
 
   <section class="design-section">
-    <img src="./starter-code/assets/mobile/image-strategic.jpg">
-    <img src="./starter-code/assets/tablet/image-strategic.jpg">
+    <img src="./starter-code/assets/mobile/image-strategic.jpg" class="design-section-mobile">
+    <img src="./starter-code/assets/tablet/image-strategic.jpg" class="design-section-tablet">
     <img src="./starter-code/assets/desktop/image-strategic.jpg">
-
+    
     <div class="container">
       <h2 class="design-section__title"><strong>Design</strong> is strategic.
-        <div><img src="./starter-code/assets/desktop/bg-pattern-wave-red.svg" alt=""></div>
+        <div><img src="./starter-code/assets/desktop/bg-pattern-wave-red.svg" alt="" class="red-pattern"></div>
       </h2>
 
       <p>"A well-crafted design strategy consistently produces desired outcomes and brand awareness. 
@@ -96,7 +97,10 @@
         <p class="pro-title__p">2019 Project</p>
       </div>
       <figcaption class="cap">
-        <h2 class="project-title">Brand naming & guidelines</h2>
+        <h2 class="project-title">Brand naming & guidelines
+        <div><img src="./starter-code/assets/desktop/bg-pattern-wavy-white.svg" alt="" class="white-pattern"></div>
+
+        </h2>
         <button class="prev"></button><button class="next"></button>
       </figcaption>
     </section>
@@ -109,7 +113,9 @@
         <p class="pro-title__p">2018 Project</p>
       </div>
       <figcaption class="cap">
-        <h2 class="project-title">Brand identity & merchandise</h2>
+        <h2 class="project-title">Brand identity & merchandise
+        <div><img src="./starter-code/assets/desktop/bg-pattern-wavy-white.svg" alt="" class="white-pattern"></div>
+        </h2>
         <button class="prev"></button><button class="next"></button>
       </figcaption>
     </section>
@@ -122,13 +128,17 @@
         <p class="pro-title__p">2016 project</p>
       </div>
       <figcaption class="cap">
-        <h2 class="project-title">Brand identity & web design</h2>
+        <h2 class="project-title">Brand identity & web design
+        <div><img src="./starter-code/assets/desktop/bg-pattern-wavy-white.svg" alt="" class="white-pattern"></div>
+        </h2>
         <button class="prev"></button><button class="next"></button>
       </figcaption>
     </section>
   </div>
   <section class="footer contact">
-    <h2>Let's build something great together.</h2>
+    <h2>Let's build something great together.
+      <img src="./starter-code/assets/desktop/bg-pattern-wave-red.svg" alt="" class="red-pattern-footer" >
+    </h2>
     <button class="footer-btn button">Schedule a Call</button>
   </section>
 </body>
