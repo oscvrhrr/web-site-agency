@@ -435,7 +435,7 @@ button {
 }
 
 .contact {
-    margin: 6.25rem 1.5rem 6.25rem 1.5rem;
+    padding: 9.25rem 1.5rem 6.25rem 1.5rem;
 } 
 
 .red-pattern-footer {
@@ -680,6 +680,10 @@ button {
         align-items: center;
         margin: 0 2rem 0;
         min-height: 20rem;
+    }
+
+    .contact{
+        padding: 0;
     }
     
 
