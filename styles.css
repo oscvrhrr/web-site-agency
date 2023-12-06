@@ -6,6 +6,9 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 body {
@@ -22,6 +25,13 @@ nav {
     justify-content: space-between;
     padding: 0 1rem;
 
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 20;
 }
 
 strong {
@@ -450,6 +460,9 @@ button {
 @media only screen and (min-width: 750px) {
 
     /* HERO SECTION */
+    header {
+        position: static;
+    }
 
     nav {
     padding: 0;
