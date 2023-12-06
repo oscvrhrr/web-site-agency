@@ -311,6 +311,10 @@ position: absolute;
     width: 100%;
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 
 .dynamic-project >:first-child {
     min-height: 25.25rem;
