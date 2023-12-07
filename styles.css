@@ -10,7 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     background-color: white;
     margin: 0;
@@ -24,7 +23,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
-
 }
 
 header {
@@ -34,25 +32,12 @@ header {
     z-index: 20;
 }
 
-strong {
-    color: #F94F4F;
-}
+strong { color: #F94F4F;}
 
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-} 
-
-h3 {
-    font-size: .9375rem;
-}
-
-p {
-    font-size: .9375rem;
-}
+h1 { font-size: 2.5rem;}
+h2 { font-size: 2rem;} 
+h3 { font-size: .9375rem;}
+p { font-size: .9375rem;}
 
 img {
     width: 100%;
@@ -74,7 +59,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 0 1.25rem 0;
-
 }
 
 .nav-menu {
@@ -87,14 +71,11 @@ ul {
     top: 5rem;
     z-index: 1;
     margin-left: 5rem;
-
 }
-
 
 .nav-menu li {
     padding: 1.25rem 0 1.25rem 0;
     list-style: none;
-
 }
 
 .nav-menu li:hover {
@@ -126,26 +107,22 @@ ul {
 .nav-btn:hover {
     background-color: #434356;
     cursor: pointer;
-
 }
 
 .hero-image-container {
     width: max-content;
 }
 
-
 .hero-contianer {
     display: flex;
     flex-direction: column;
     margin: 0 1.25rem 6rem;
-
 }
 
 .img-2-hero,
 .img-3-hero {
     display: none;
 }
-
 
 .hero-section__title {
     margin: 3.5rem 0 0 0;
@@ -167,7 +144,6 @@ ul {
     font-weight: 800;
     font-size: 18px;
     border: none;
-    
 }
 
 .hero-button:hover {
@@ -199,7 +175,6 @@ ul {
 
 section.design-section {
     background-color: #191921;
-
 }
 
 .design-section__title {
@@ -223,11 +198,7 @@ section.design-section .container {
     line-height: 1.5;
 }
 
-
-
-
 a:hover {
-
     cursor: pointer;
 }
 
@@ -239,15 +210,12 @@ a:hover {
     border-style: none;
     padding-bottom: 11px;
     border-bottom: 2px solid #F94F4F;
-
 }
 
 .underlined-btn:hover {
     color: #FF9393;
     border-color: #FF9393;
 }
-
-
 
 /* APPROACH SECTION */ 
 
@@ -273,8 +241,6 @@ section.approach-section .container li {
 font-size: 5rem;
 font-weight: 800;
 position: absolute;
-
-
 }
 
 .container-two {
@@ -352,6 +318,7 @@ position: absolute;
     position: relative;
     color: #fff;
 }
+
 .pro-title{
     position: absolute;
     bottom: 10%;
@@ -369,7 +336,9 @@ figcaption {
     background-color: #191921;
     min-height: 20rem ;
 }
+
  /* new styles for dynamic project */
+
 .pro-container {
     position: relative;
     min-height: 44.7rem;
@@ -379,10 +348,8 @@ figcaption {
     display: none;
 }
 
-
 .slide  {
     position: absolute;
-
 }
 
 
@@ -428,7 +395,6 @@ button {
     margin: 0 0 0 .75rem;
 }
 
-
 .footer-btn {
     width: 200px;
     height: 72px;
@@ -453,10 +419,7 @@ button {
     display: none;
 }
 
-
-
 /* -------------------- TABLET LAYOUT ------------------ */
-
 
 @media only screen and (min-width: 750px) {
 
@@ -500,8 +463,6 @@ button {
     
     /* HERO SECTION */
 
-    
-
     .img-1-hero,
     .img-3-hero {
         display: none;
@@ -511,7 +472,6 @@ button {
         display: block;
         width: 100%;
     }
-
 
     .hero-section {
         display: flex;
@@ -551,6 +511,7 @@ button {
         font-size: 18px;
         border: none;
     }
+
     /* DESIGN SECTION */
 
     .red-pattern {
@@ -592,7 +553,6 @@ button {
     .design-section img:nth-child(3n) {
         display: none;
     }
-
 
     section.approach-section {
         background-color: #fff;
@@ -663,11 +623,6 @@ button {
         height: 30rem;
     }
     
-     
-
-
-
-
     /* CONTACT SECTION */
 
     .container{
@@ -720,7 +675,6 @@ button {
         display: block;
     }
 
-
     .logo-container {
         margin-left: 10.3125rem;
     }
@@ -732,7 +686,6 @@ button {
     .hero-contianer {
      margin: 3rem 0 0;
     }
-
 
     .hero-section__title {
         position: relative;
@@ -754,7 +707,6 @@ button {
         display: inline-block;
         width: 177px;
         height: 72px;
-
     }
 
     /* DESIGN SECTION */
@@ -795,8 +747,6 @@ button {
         font-size: 1.125rem;
     }
 
-   
-
     /* APPROACH SECTION */
 
     section.approach-section h2 {
@@ -822,27 +772,23 @@ button {
         font-size: 1.125rem;
     }
 
-   .container-two {
-    padding: 7rem 3rem 2rem 6rem;
+    .container-two {
+        padding: 7rem 3rem 2rem 6rem;
+    }
 
-   }
-
-   .li-one,
+    .li-one,
     .li-two,
     .li-three {
-
         left: -10%;
     }
 
     .project-title {
         font-size: 3.5rem;
         margin: 3rem 3rem 0 7rem
-
     }
 
     .prev {
         margin: 1rem 0 0 9rem;
-
     }
 
 
@@ -850,7 +796,6 @@ button {
         font-weight: bolder;
         bottom: -50%;
         font-size: 1.25rem;
-
     }
 
     .pro-title__p {
@@ -871,17 +816,13 @@ button {
 
     figcaption .cap{
         min-height: 32rem;
-
     }
 
     .white-pattern {
         display: inline-block;
         width: 8.375rem;
         height: 4.25rem;
-
     }
-
-
 
     div.contact {
         padding: 2rem 8rem;
@@ -917,6 +858,5 @@ button {
         height: 4.25rem;
         position: absolute;
         left: -4%;
-
     }
 }
