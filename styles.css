@@ -25,6 +25,12 @@ nav {
     padding: 0 1rem;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
 header {
     position: sticky;
     top: 0;
@@ -292,9 +298,20 @@ position: absolute;
     width: 100%;
 }
 
-.hidden{
-    visibility: hidden;
+.initial--state{
+    opacity: 0;
 }
+
+.active--state {
+    opacity: 100;
+    transition: opacity 375ms linear;
+}
+
+ .hidden {
+    opacity: 0;
+    transition: opacity 375ms linear;
+} 
+
 
 
 .dynamic-project >:first-child {
