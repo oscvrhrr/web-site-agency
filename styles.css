@@ -283,13 +283,17 @@ position: absolute;
     left: -1rem;
     opacity: .25;
     position: absolute;
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
 }
 
 .li-two {
     top: -4rem;
     left: -1rem;
-    opacity: .25;
+    /* opacity: .25; */
     position: absolute;
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
 }
 
 .li-three {
@@ -297,6 +301,16 @@ position: absolute;
     left: -1rem;
     opacity: .25;
     position: absolute;
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+}
+
+.li-one--active,
+.li-two--active,
+.li-three--active {
+    opacity: .25;
+    transform: translate3d(0, 0, 0);
+    transition: all 1000ms linear;
 }
 
 /* PROJECT SECTION */
@@ -609,7 +623,7 @@ button {
         left: 5%;
         max-width: 15rem;
         margin-top: 12rem;
-        transform: translate3d(-70px, 0, 0);
+        transform: translate3d(-50px, 0, 0);
         opacity: 0;
     }
 
@@ -629,6 +643,8 @@ button {
     .li-three {
         z-index: 2;
         left: -17%;
+        opacity: .25;
+        transform: initial;
     }
 
     /* PROJECT SECTION */
@@ -831,6 +847,9 @@ button {
     .li-two,
     .li-three {
         left: -10%;
+        transform: initial;
+        opacity: .25;
+
     }
 
     .project-title {
