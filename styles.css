@@ -187,7 +187,24 @@ section.design-section {
     padding: 5.05rem 0 1.5rem 0;
     position: relative;
     margin: 0;
+    opacity: 0;
+
 }
+
+.design-section__desc,
+.underlined-btn {
+    opacity: 0;
+}
+
+
+
+.design-section__title--active,
+.design-section__desc--active,
+.underlined_btn--active {
+    opacity: 1;
+    transition: all 1500ms linear;
+}
+
 
 section.design-section .container p {
     margin: 0 0 2.5rem 0;
@@ -592,6 +609,15 @@ button {
         left: 5%;
         max-width: 15rem;
         margin-top: 12rem;
+        transform: translate3d(-70px, 0, 0);
+        opacity: 0;
+    }
+
+    .approach-section__title--active {
+        opacity: 1;
+        transform: translate3d(0px, 0, 0);
+        transition: all 1500ms linear;
+
     }
 
     .container-two {
