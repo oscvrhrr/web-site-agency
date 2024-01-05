@@ -202,7 +202,7 @@ section.design-section {
 .design-section__desc--active,
 .underlined_btn--active {
     opacity: 1;
-    transition: all 1500ms linear;
+    transition: all 1000ms linear;
 }
 
 
@@ -310,7 +310,7 @@ position: absolute;
 .li-three--active {
     opacity: .25;
     transform: translate3d(0, 0, 0);
-    transition: all 1000ms linear;
+    transition: all 900ms linear;
 }
 
 /* PROJECT SECTION */
