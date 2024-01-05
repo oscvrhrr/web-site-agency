@@ -625,12 +625,12 @@ button {
         margin-top: 12rem;
         transform: translate3d(-50px, 0, 0);
         opacity: 0;
+        transition: all 1000ms linear;
     }
 
     .approach-section__title--active {
         opacity: 1;
-        transform: translate3d(0px, 0, 0);
-        transition: all 1500ms linear;
+        transform: translate3d(0, 0, 0);
 
     }
 
