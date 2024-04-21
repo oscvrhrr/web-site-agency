@@ -28,24 +28,21 @@ window.addEventListener("scroll", () => {
 });
 
 let approachSection = document.getElementsByClassName("approach-section")[0];
-let approachTitle = document.getElementsByClassName("approach-section__title")[0];
-let liOne = document.getElementsByClassName('li-one')[0];
-let liTwo = document.getElementsByClassName('li-two')[0];
-let liThree = document.getElementsByClassName('li-three')[0];
-
-
+let approachTitle = document.getElementsByClassName(
+  "approach-section__title"
+)[0];
+let liOne = document.getElementsByClassName("li-one")[0];
+let liTwo = document.getElementsByClassName("li-two")[0];
+let liThree = document.getElementsByClassName("li-three")[0];
 
 window.addEventListener("scroll", () => {
-    if (approachSection.getBoundingClientRect().top <= 0) {
-        approachTitle.classList.add('approach-section__title--active');
-        liOne.classList.add('li-one--active');
-        liTwo.classList.add('li-two--active');
-        liThree.classList.add('li-three--active');
-    
-    }
-})
-
-
+  if (approachSection.getBoundingClientRect().top <= 0) {
+    approachTitle.classList.add("approach-section__title--active");
+    liOne.classList.add("li-one--active");
+    liTwo.classList.add("li-two--active");
+    liThree.classList.add("li-three--active");
+  }
+});
 
 let next = Array.from(document.getElementsByClassName("next"));
 let prev = Array.from(document.getElementsByClassName("prev"));
