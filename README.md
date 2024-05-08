@@ -8,14 +8,14 @@ design files for front end developers to practice real life workflows.
 My objective with this project was to translate the design files as accuratley as possible, and practice responsive design.
 
 
-![](./Creative-mobile.gif)
+
 
 
    
 ### What I learned
-In this project I spent hours debugging CSS, finishing up with project made me comfortable working with CSS.
+In this project I spent manyhours debugging CSS, finishing up with project made me comfortable working with CSS.
 It improved my knowlege of the box model, flexbox and responsive layouts. I had most fun with this project by adding a bit of my own spin 
-to this project. I manipulated the dom by adding a sliding effect to heading tags.
+to this project. I manipulated the dom by adding a sliding effect to some heading tags.
 
 
 + Media queries
@@ -23,7 +23,8 @@ to this project. I manipulated the dom by adding a sliding effect to heading tag
 + CSS specificity
 + Flexbox
 + Dom manipulation
-  
+
+![](./Creative-mobile.gif)
     
 
     
